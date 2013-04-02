@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AVR BootloadHID USB программатор</string>
+    <string name="action_about">О программе</string>
+    <string name="boothid_info">Загрузчик</string>
+    <string name="page_size">Размер сектора</string>
+    <string name="flash_size">Размер памяти</string>
+    <string name="flash_free">байт доступно</string>
+    <string name="path_button">Обзор</string>
+    <string name="start_addr">Стартовый адрес</string>
+    <string name="size">Длина</string>
+    <string name="leave_bootloader">Перезагрузка после прошивки</string>
+    <string name="flash_button">Прошить</string>
+
+    <string name="no_flash">Нет свободного места</string>
+    <string name="no_flash_1">Данные (</string>
+    <string name="no_flash_2">байт) больше доступной памяти!</string>
+    
+    <string name="bad_hex_file_title">Ошибка файла</string>
+    <string name="bad_hex_file_io">Невозможно прочитать.</string>
+    <string name="bad_hex_file_chksum">Неверная контрольная сумма.</string>
+    <string name="bad_hex_file_format">Intel HEX формат нечитаем.</string>
+    <string name="bad_hex_file_unknwn">Неизвестная ошибка.</string>
+
+    <string name="flash_error_title">Ошибка загрузки</string>
+    <string name="flash_error">Невозможно отправить данные загрузчику!</string>
+    <string name="firmware_flashed">Прошивка завершена</string>
+    <string name="firmware_flashed_text">Вы можете отключить устройство от USB.</string>
+    
+    <string name="usb_error">USB подключение</string>
+    <string name="usb_not_find_interface">Невозможно найти интерфейс.</string>
+    <string name="usb_not_find_endpoint">Невозможно найти эндпоинт.</string>
+    <string name="usb_cant_query_manufacturer">Невозможно получить производителя устройства.</string>
+    <string name="usb_cant_query_product">Невозможно получить код продукта.</string>
+    <string name="usb_bad_info_report">Получен неполный информационный блок данных.</string>
+    <string name="usb_open_failed">Невозможно открыть.</string>
+    <string name="usb_unsupported_bootloader">Неподдерживаемый загрузчик.</string>
+    
+    <string name="about_dialog">О программе</string>
+   	<string name="about_dialog_text">AVR BootloadHID USB программатор\nВерсия</string>
+   	<string name="about_dialog_text2">\nCopyright &#169; 2013, Alexander Chukov</string>
+    
+    <string name="pathButton">Открыть</string>
+    <string name="cancel">Отмена</string>
+    <string name="file_name">Имя файла:</string>
+    <string name="create">Сохранить</string>
+    <string name="no_data">Нет данных</string>
+    <string name="open_file">Открыть файл</string>
+	<string name="save_file">Сохранить файл</string>
+    <string name="newDirectory">Новая папка</string>
+    <string name="button_continue">Продолжить</string>
+	<string name="button_cancel">Отмена</string>
+	<string name="create_new">Создать:</string>
+	<string name="cannot_create">Невозможно создать!</string>
+	<string name="cant_read_folder">невозможно прочитать папку!</string>
+	<string name="filebrowser_name">Файловый браузер</string>
+	
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AVR BootloadHID USB uploader</string>
+    <string name="action_about">About</string>
+    <string name="boothid_info">Bootloader</string>
+    <string name="page_size">Sector size</string>
+    <string name="flash_size">Flash size</string>
+    <string name="flash_free">bytes remaining</string>
+    <string name="path_button">Browse</string>
+    <string name="start_addr">Start</string>
+    <string name="size">Length</string>
+    <string name="leave_bootloader">Reset after uploading</string>
+    <string name="flash_button">Start</string>
+
+    <string name="no_flash">No free space</string>
+    <string name="no_flash_1">Data (</string>
+    <string name="no_flash_2">bytes) exceeds remaining flash size!</string>
+    
+    <string name="bad_hex_file_title">File error</string>
+    <string name="bad_hex_file_io">Cannot read.</string>
+    <string name="bad_hex_file_chksum">Checksum error.</string>
+    <string name="bad_hex_file_format">Intel HEX format error.</string>
+    <string name="bad_hex_file_unknwn">Unknown error.</string>
+
+    <string name="flash_error_title">Upload error</string>
+    <string name="flash_error">Error sending message to bootloader!</string>
+    <string name="firmware_flashed">Firmware uploaded</string>
+    <string name="firmware_flashed_text">Now you can detach device from USB.</string>
+
+    <string name="usb_error">USB connection</string>
+    <string name="usb_not_find_interface">Could not find interface.</string>
+    <string name="usb_not_find_endpoint">Could not find endpoint.</string>
+    <string name="usb_cant_query_manufacturer">Cannot query manufacturer for device.</string>
+    <string name="usb_cant_query_product">Cannot query product for device.</string>
+    <string name="usb_bad_info_report">Incomplete device info report received.</string>
+    <string name="usb_open_failed">Cannot open.</string>
+    <string name="usb_unsupported_bootloader">Unsupported HID bootloader</string>
+    
+    <string name="about_dialog">About</string>
+   	<string name="about_dialog_text">AVR BootloadHID USB uploader\nVersion</string>
+   	<string name="about_dialog_text2">\nCopyright &#169; 2013, Alexander Chukov</string>
+    
+    <string name="pathButton">Open</string>
+    <string name="cancel">Cancel</string>
+    <string name="file_name">File name:</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+    <string name="open_file">Open file</string>
+	<string name="save_file">Save file</string>
+    <string name="newDirectory">New folder</string>
+    <string name="button_continue">Continue</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="create_new">Create:</string>
+	<string name="cannot_create">Cannot create!</string>
+	<string name="cant_read_folder">folder can\'t be read!</string>
+	<string name="filebrowser_name">Filebrowser</string>
+	
+</resources>
