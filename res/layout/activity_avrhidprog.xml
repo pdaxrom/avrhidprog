@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AVRHidProgActivity" >
+
+    <FrameLayout
+        android:id="@+id/tableLayout0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+        	android:id="@+id/bootHidLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left" 
+            android:text="@string/boothid_info"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<TextView
+        	android:id="@+id/bootHid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+        	android:id="@+id/pageSizeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left" 
+            android:text="@string/page_size"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<TextView
+        	android:id="@+id/pageSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+        	android:id="@+id/flashSizeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left" 
+            android:text="@string/flash_size"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<TextView
+        	android:id="@+id/flashSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </FrameLayout>
+    
+    <LinearLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+        	android:id="@+id/pathText"
+        	android:inputType="text"
+        	android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="1.39"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageButton
+        	android:id="@+id/pathButton"
+            android:src="@drawable/document_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/path_button" />
+        		
+    </LinearLayout>
+    
+    <FrameLayout
+        android:id="@+id/tableLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+        	android:id="@+id/startAddrLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left" 
+            android:text="@string/start_addr"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<TextView
+        	android:id="@+id/startAddr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/tableLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+        	android:id="@+id/lengthLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left" 
+            android:text="@string/size"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<TextView
+        	android:id="@+id/length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </FrameLayout>
+
+    <CheckBox
+        android:id="@+id/resetChkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leave_bootloader" />
+    
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:progressDrawable="@android:drawable/progress_horizontal"
+		android:indeterminate="false" 
+		android:indeterminateOnly="false" />
+    
+    <ImageButton
+        android:id="@+id/prgButton"
+        android:src="@drawable/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
